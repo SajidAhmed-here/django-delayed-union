@@ -1,4 +1,4 @@
-"name: Python package
+name: Python package
 
 on:
   pull_request:
@@ -38,4 +38,3 @@ jobs:
         run: python -m pip install tox tox-gh-actions
       - name: Run tests
         run: tox
-"
